@@ -10,16 +10,25 @@
 <body>
     <div class="game-container game-container-js ">
         <div class="game-heading">Rock Paper Scissors</div>
-        <div class="display">
-            <div class="player-choice player-choice-js">Player</div>
-            <div class="computer-choice computer-choice-js">Computer</div>
+        <div class="display-container">
+            <div class = "display">
+                <div class="player-choice player-choice-js">
+                    <div class="player-heading">Player</div>
+                    <div class="player"></div>
+                </div>
+                <div class="computer-choice computer-choice-js">
+                    <div class="computer-heading">Computer</div>
+                    <div class="computer"></div>
+                </div>    
+            </div>
             <div class="result-display-js"></div>
         </div>
         <div class="buttons-container">
-            <button class="rock-button rock-button-js">Rock</button>
-            <button class="paper-button paper-button-js">Paper</button>
-            <button class="scissors-button scissors-button-js">Scissors</button>
+            <button class="rock-button rock-button-js"><img src="images/rock-emoji.png" alt="" class="move-icon"></button>
+            <button class="paper-button paper-button-js"><img src="images/paper-emoji.png" alt="" class="move-icon"></button>
+            <button class="scissors-button scissors-button-js"><img src="images/scissors-emoji.png" alt="" class="move-icon"></button>
         </div>
+        <div class="scores"></div>
         <div class="newGame-button-container">
             <button class = "new-game-button">New Game</button>
         </div>
