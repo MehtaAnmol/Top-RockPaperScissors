@@ -1,0 +1,38 @@
+.game-container{
+    border: solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 1rem;
+    align-items: center;
+    
+}
+.game-heading{
+    border: solid;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.7rem;
+    width: 40vmin;
+}
+.display{
+    border: solid;
+    height: 20vmax;
+    width: 40vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player-choice,.computer-choice{
+    border: solid;
+    height: 60px;
+    width: 80px;
+}
+.buttons-container{
+    border: solid blue;
+    padding: 1rem;
+}
+.newGame-button-container{
+    border: solid brown;
+}
